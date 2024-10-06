@@ -72,7 +72,7 @@ The simulation environment was designed based on the **Al-Malaz district in Riya
 
    and change the line in 355 to :
       ```bash
-      traci.start([checkBinary("sumo"), "-c", f"{self.base_path}/{self.config_path}"])
+      traci.start([checkBinary("sumo-gui"), "-c", f"{self.base_path}/{self.config_path}"])
    ```
 
 6. **Install YOLOv11x (Ultralytics)**:
