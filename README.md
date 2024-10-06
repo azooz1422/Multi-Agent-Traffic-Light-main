@@ -94,12 +94,11 @@ The simulation environment was designed based on the **Al-Malaz district in Riya
        simulation = TrafficSimulation(
            config_path, 
            base_path, 
-           epochs=100, 
+           epochs=1, 
            steps=1000, 
-           window_size=32, 
-           train=False
+           window_size=32
        )
-       simulation.run_simulation()
+       simulation.run_simulation(train=False)
    ```
 
 2. **Run the traffic light control simulation**:
